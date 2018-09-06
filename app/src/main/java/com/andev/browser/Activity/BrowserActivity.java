@@ -60,6 +60,7 @@ import com.andev.browser.Unit.IntentUnit;
 import com.andev.browser.Unit.ViewUnit;
 import com.andev.browser.View.*;
 import com.andev.browser.adapter.MyAdapter;
+import com.andev.browser.adapter.SearchBarAdapter;
 import com.spyhunter99.supertooltips.ToolTip;
 import com.spyhunter99.supertooltips.ToolTipManager;
 
@@ -510,6 +511,10 @@ else
         inputBox.setOnEditorActionListener(new TextView.OnEditorActionListener() {
             @Override
             public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
+                if(tooltips!=null)
+                {
+                    tooltips.closeTooltipImmediately();
+                }
                 if (currentAlbumController == null) { // || !(actionId == EditorInfo.IME_ACTION_DONE)
                     return false;
                 }
@@ -1341,10 +1346,13 @@ ArrayList<WebView> arrWebViews=new ArrayList<>();
         list.addAll(action.listHistory());
         action.close();
 
-        final CompleteAdapter adapter = new CompleteAdapter(this, R.layout.complete_item, list);
-        inputBox.setAdapter(adapter);
-        adapter.notifyDataSetChanged();
+//        final CompleteAdapter adapter = new CompleteAdapter(this, R.layout.complete_item, list);
+//        inputBox.setAdapter(adapter);
 
+
+        SearchBarAdapter adapter=new SearchBarAdapter(this,0,new Vector<String>());
+        adapter.notifyDataSetChanged();
+        inputBox.setAdapter(adapter);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
             inputBox.setDropDownVerticalOffset(getResources().getDimensionPixelOffset(R.dimen.layout_height_6dp));
         }
@@ -1352,7 +1360,8 @@ ArrayList<WebView> arrWebViews=new ArrayList<>();
         inputBox.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                String url = ((TextView) view.findViewById(R.id.complete_item_url)).getText().toString();
+                String url = ((TextView) view.findViewById(R.id.serachBarText)).getText().toString();
+//                String url = ((TextView) view.findViewById(R.id.complete_item_url)).getText().toString();
                 inputBox.setText(Html.fromHtml(BrowserUnit.urlWrapper(url)), EditText.BufferType.SPANNABLE);
                 inputBox.setSelection(url.length());
                 boolean internetConnection = InternetConnection.checkConnection(BrowserActivity.this);

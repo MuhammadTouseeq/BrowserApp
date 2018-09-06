@@ -1,4 +1,4 @@
-#Mon Sep 03 23:49:33 PKT 2018
-base.0=D\:\\AndroidExternal\\BrowserApp\\Ninja1\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+#Thu Sep 06 11:27:51 PKT 2018
+base.0=/Users/imac28/Documents/BitBucket/BrowserApp/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

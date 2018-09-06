@@ -36,5 +36,5 @@
     <color name="hint">#B8B8B8</color>
     <color name="dividers">#DADADA</color>
     <color name="gradient">#40FE9565</color>
-
+    <color name="buttonscolor">#262466</color>
 </resources>
