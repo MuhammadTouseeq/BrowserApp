@@ -1,40 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/imac28/Documents/BitBucket/BrowserApp/D:\\AndroidExternal\\BrowserApp\\Ninja1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+            "outputFile": "C:\\Users\\Ambreen\\Desktop\\BrowserApp\\BrowserApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/imac28/Documents/BitBucket/BrowserApp/C:\\Users\\Engeneer Touseeq\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\b51fd7eb6f693c74780a1d31008b208f\\res\\values-v16\\values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/imac28/Documents/BitBucket/BrowserApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
-            "map": [
-                {
-                    "source": "/Users/imac28/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/668f26a92ab4621368133dd9899e1690/res/values-v16/values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/imac28/Documents/BitBucket/BrowserApp/D:\\AndroidExternal\\BrowserApp\\BrowserApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
-            "map": [
-                {
-                    "source": "/Users/imac28/Documents/BitBucket/BrowserApp/C:\\Users\\Engeneer Touseeq\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\b51fd7eb6f693c74780a1d31008b208f\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\Ambreen\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\a2903f460b2097befc069f818cc9d29a\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

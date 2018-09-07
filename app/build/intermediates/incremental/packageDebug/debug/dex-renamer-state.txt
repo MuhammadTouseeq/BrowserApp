@@ -1,4 +1,4 @@
-#Thu Sep 06 11:27:51 PKT 2018
-base.0=/Users/imac28/Documents/BitBucket/BrowserApp/app/build/intermediates/transforms/dexMerger/debug/0
+#Thu Sep 06 23:59:23 PKT 2018
+base.0=C\:\\Users\\Ambreen\\Desktop\\BrowserApp\\BrowserApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex
