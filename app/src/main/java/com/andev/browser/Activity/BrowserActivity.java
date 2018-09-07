@@ -13,7 +13,6 @@ import android.content.pm.ActivityInfo;
 import android.content.res.Configuration;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.graphics.Color;
 import android.graphics.Point;
 import android.graphics.drawable.ColorDrawable;
 import android.media.MediaPlayer;
@@ -31,7 +30,6 @@ import android.text.Html;
 import android.text.InputType;
 import android.text.TextWatcher;
 import android.text.method.KeyListener;
-import android.util.Log;
 import android.view.*;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
@@ -39,7 +37,6 @@ import android.view.animation.DecelerateInterpolator;
 import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputMethodManager;
 import android.webkit.ValueCallback;
-import android.webkit.WebBackForwardList;
 import android.webkit.WebChromeClient;
 import android.webkit.WebIconDatabase;
 import android.webkit.WebView;
@@ -49,6 +46,7 @@ import com.andev.browser.Browser.AlbumController;
 import com.andev.browser.Browser.BrowserContainer;
 import com.andev.browser.Browser.BrowserController;
 import com.andev.browser.InternetConnection;
+import com.andev.browser.Item;
 import com.andev.browser.Page;
 import com.andev.browser.PageHolder;
 import com.andev.browser.Service.ClearService;
@@ -69,7 +67,6 @@ import com.spyhunter99.supertooltips.ToolTipManager;
 
 
 import org.askerov.dynamicgrid.DynamicGridView;
-import org.michaelbel.bottomsheet.BottomSheet;
 
 import java.io.File;
 import java.util.*;
@@ -590,23 +587,67 @@ else
                 return true;
             }
         });
+
+
+
         omniboxBookmark.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                ArrayList<String> arrayList=new ArrayList<>();
-                arrayList.add("Google");
-                arrayList.add("Yahoo");
-                arrayList.add("Bing");
-                arrayList.add("DuckDuckGo");
-                arrayList.add("Youtube");
-                MyAdapter adapter = new MyAdapter(BrowserActivity.this,R.layout.list_view_items, arrayList);
+                ArrayList<Item> arrayList=new ArrayList<>();
+                arrayList.add(new Item("Google",R.mipmap.icn_google));
+                arrayList.add(new Item("Yahoo",R.mipmap.ic_launcher));
+                arrayList.add(new Item("Bing",R.mipmap.icn_google));
+                arrayList.add(new Item("DuckDuckGo",R.mipmap.icn_google));
+                arrayList.add(new Item("Youtube",R.mipmap.icn_google));
+
+
+                final MyAdapter adapter = new MyAdapter(BrowserActivity.this,R.layout.list_view_items,arrayList);
                 LayoutInflater inflater = (LayoutInflater) getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-               View view = inflater.inflate(R.layout.tooltip_list, null);
+                View view = inflater.inflate(R.layout.tooltip_list, null);
                 ListView  listView=(ListView)view.findViewById(R.id.simpleListView);
                 listView.setVisibility(View.VISIBLE);
                 listView.setAdapter(adapter);
+                listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                        searchEngineType=i;
+                        switch (i)
+                        {
+                            case 0:
+                            {
 
+                                omniboxBookmark.setImageDrawable(getContext().getResources().getDrawable(adapter.getItem(i).getItemImage()));
+
+
+                            }
+                            break;
+                            case 1:
+                            {
+
+                                omniboxBookmark.setImageDrawable(getContext().getResources().getDrawable(adapter.getItem(i).getItemImage()));
+                            }
+                            break;
+                            case 2:
+                            {
+                                omniboxBookmark.setImageDrawable(getContext().getResources().getDrawable(adapter.getItem(i).getItemImage()));
+                            }
+                            break;
+                            case 3:
+                            {
+                                omniboxBookmark.setImageDrawable(getContext().getResources().getDrawable(adapter.getItem(i).getItemImage()));
+                            }
+                            break;
+                            case 4:
+                            {
+                                omniboxBookmark.setImageDrawable(getContext().getResources().getDrawable(adapter.getItem(i).getItemImage()));
+                            }
+                            break;
+                        }
+
+                        tooltips.closeActiveTooltip();
+                    }
+                });
                 ToolTip toolTip = new ToolTip()
                         .withContentView(view)
                         .withAnimationType(ToolTip.AnimationType.FROM_MASTER_VIEW)
@@ -677,7 +718,7 @@ else
             }
         });
     }
-
+ public static int searchEngineType=0;
 
     private void showpopupwindows(final Activity context, Point p) {
 
@@ -1733,6 +1774,12 @@ ArrayList<WebView> arrWebViews=new ArrayList<>();
 
     @Override
     public void onBackPressed() {
+
+        if(tooltips!=null)
+        {
+            tooltips.closeActiveTooltip();
+            tooltips.closeTooltipImmediately();
+        }
 
         if(webView.canGoBack())
         {

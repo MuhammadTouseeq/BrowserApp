@@ -4,12 +4,12 @@
         "source": "C:\\Users\\Ambreen\\Desktop\\BrowserApp\\BrowserApp\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_bookmark_default_dark.png"
     },
     {
-        "merged": "D:\\AndroidExternal\\BitBucket\\browserApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
-        "source": "C:\\Users\\Engeneer Touseeq\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\b51fd7eb6f693c74780a1d31008b208f\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
-    },
-    {
         "merged": "D:\\AndroidExternal\\BitBucket\\browserApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_helpbrowser300px.png.flat",
         "source": "C:\\Users\\Engeneer Touseeq\\.gradle\\caches\\transforms-1\\files-1.1\\super-tooltip-aar-4.0.2.aar\\e1ca0436c85f8143ad514c9ee14859b0\\res\\drawable\\helpbrowser300px.png"
+    },
+    {
+        "merged": "D:\\AndroidExternal\\BitBucket\\browserApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
+        "source": "C:\\Users\\Engeneer Touseeq\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\b51fd7eb6f693c74780a1d31008b208f\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
         "merged": "D:\\AndroidExternal\\BitBucket\\browserApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
@@ -42,6 +42,10 @@
     {
         "merged": "C:\\Users\\Ambreen\\Desktop\\BrowserApp\\BrowserApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_half_black_36dp.png.flat",
         "source": "C:\\Users\\Ambreen\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\a2903f460b2097befc069f818cc9d29a\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "D:\\AndroidExternal\\BitBucket\\browserApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_no_page_found.xml.flat",
+        "source": "D:\\AndroidExternal\\BitBucket\\browserApp\\app\\src\\main\\res\\layout-v21\\no_page_found.xml"
     },
     {
         "merged": "D:\\AndroidExternal\\BitBucket\\browserApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
@@ -124,12 +128,12 @@
         "source": "C:\\Users\\Ambreen\\Desktop\\BrowserApp\\BrowserApp\\app\\src\\main\\res\\drawable-xxhdpi\\ic_download.png"
     },
     {
-        "merged": "D:\\AndroidExternal\\BitBucket\\browserApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_avd_hide_password.xml.flat",
-        "source": "C:\\Users\\Engeneer Touseeq\\.gradle\\caches\\transforms-1\\files-1.1\\design-25.4.0.aar\\5796dbf0c54486bfde1de95c2dc2a38c\\res\\drawable-v21\\avd_hide_password.xml"
-    },
-    {
         "merged": "C:\\Users\\Ambreen\\Desktop\\BrowserApp\\BrowserApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_design_snackbar_background.xml.flat",
         "source": "C:\\Users\\Ambreen\\.gradle\\caches\\transforms-1\\files-1.1\\design-25.4.0.aar\\b5174149cf910aa86b01dc3a4424f32a\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "D:\\AndroidExternal\\BitBucket\\browserApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_avd_hide_password.xml.flat",
+        "source": "C:\\Users\\Engeneer Touseeq\\.gradle\\caches\\transforms-1\\files-1.1\\design-25.4.0.aar\\5796dbf0c54486bfde1de95c2dc2a38c\\res\\drawable-v21\\avd_hide_password.xml"
     },
     {
         "merged": "D:\\AndroidExternal\\BitBucket\\browserApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
@@ -144,16 +148,16 @@
         "source": "D:\\AndroidExternal\\BitBucket\\browserApp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\AndroidExternal\\BitBucket\\browserApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_bar_title_item.xml.flat",
-        "source": "C:\\Users\\Engeneer Touseeq\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\b51fd7eb6f693c74780a1d31008b208f\\res\\layout\\abc_action_bar_title_item.xml"
+        "merged": "C:\\Users\\Ambreen\\Desktop\\BrowserApp\\BrowserApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_holo_light.xml.flat",
+        "source": "C:\\Users\\Ambreen\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\a2903f460b2097befc069f818cc9d29a\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
         "merged": "D:\\AndroidExternal\\BitBucket\\browserApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cl_selector_dark.xml.flat",
         "source": "D:\\AndroidExternal\\BitBucket\\browserApp\\app\\src\\main\\res\\drawable\\cl_selector_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Ambreen\\Desktop\\BrowserApp\\BrowserApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_list_selector_holo_light.xml.flat",
-        "source": "C:\\Users\\Ambreen\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\a2903f460b2097befc069f818cc9d29a\\res\\drawable\\abc_list_selector_holo_light.xml"
+        "merged": "D:\\AndroidExternal\\BitBucket\\browserApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_bar_title_item.xml.flat",
+        "source": "C:\\Users\\Engeneer Touseeq\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\b51fd7eb6f693c74780a1d31008b208f\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
         "merged": "C:\\Users\\Ambreen\\Desktop\\BrowserApp\\BrowserApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
@@ -164,24 +168,24 @@
         "source": "C:\\Users\\Ambreen\\Desktop\\BrowserApp\\BrowserApp\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_bookmark_active_dark.png"
     },
     {
-        "merged": "C:\\Users\\Ambreen\\Desktop\\BrowserApp\\BrowserApp\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_material_dark.xml.flat",
-        "source": "C:\\Users\\Ambreen\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\a2903f460b2097befc069f818cc9d29a\\res\\color\\abc_primary_text_material_dark.xml"
-    },
-    {
         "merged": "C:\\Users\\Ambreen\\Desktop\\BrowserApp\\BrowserApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Ambreen\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\a2903f460b2097befc069f818cc9d29a\\res\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
-        "merged": "D:\\AndroidExternal\\BitBucket\\browserApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
-        "source": "C:\\Users\\Engeneer Touseeq\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\b51fd7eb6f693c74780a1d31008b208f\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+        "merged": "C:\\Users\\Ambreen\\Desktop\\BrowserApp\\BrowserApp\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_material_dark.xml.flat",
+        "source": "C:\\Users\\Ambreen\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\a2903f460b2097befc069f818cc9d29a\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\Ambreen\\Desktop\\BrowserApp\\BrowserApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_main_top.xml.flat",
+        "source": "C:\\Users\\Ambreen\\Desktop\\BrowserApp\\BrowserApp\\app\\src\\main\\res\\layout\\main_top.xml"
     },
     {
         "merged": "D:\\AndroidExternal\\BitBucket\\browserApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Engeneer Touseeq\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\b51fd7eb6f693c74780a1d31008b208f\\res\\drawable-mdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Ambreen\\Desktop\\BrowserApp\\BrowserApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_main_top.xml.flat",
-        "source": "C:\\Users\\Ambreen\\Desktop\\BrowserApp\\BrowserApp\\app\\src\\main\\res\\layout\\main_top.xml"
+        "merged": "D:\\AndroidExternal\\BitBucket\\browserApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
+        "source": "C:\\Users\\Engeneer Touseeq\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\b51fd7eb6f693c74780a1d31008b208f\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
     },
     {
         "merged": "C:\\Users\\Ambreen\\Desktop\\BrowserApp\\BrowserApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_add_selector.xml.flat",
@@ -224,16 +228,16 @@
         "source": "D:\\AndroidExternal\\BitBucket\\browserApp\\app\\src\\main\\res\\drawable-xhdpi\\ic_find.png"
     },
     {
-        "merged": "C:\\Users\\Ambreen\\Desktop\\BrowserApp\\BrowserApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
-        "source": "C:\\Users\\Ambreen\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\a2903f460b2097befc069f818cc9d29a\\res\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+        "merged": "C:\\Users\\Ambreen\\Desktop\\BrowserApp\\BrowserApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_lines_media.xml.flat",
+        "source": "C:\\Users\\Ambreen\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\a2903f460b2097befc069f818cc9d29a\\res\\layout\\notification_template_lines_media.xml"
     },
     {
         "merged": "C:\\Users\\Ambreen\\Desktop\\BrowserApp\\BrowserApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_activity_chooser_view.xml.flat",
         "source": "C:\\Users\\Ambreen\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\a2903f460b2097befc069f818cc9d29a\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
-        "merged": "C:\\Users\\Ambreen\\Desktop\\BrowserApp\\BrowserApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_lines_media.xml.flat",
-        "source": "C:\\Users\\Ambreen\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\a2903f460b2097befc069f818cc9d29a\\res\\layout\\notification_template_lines_media.xml"
+        "merged": "C:\\Users\\Ambreen\\Desktop\\BrowserApp\\BrowserApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
+        "source": "C:\\Users\\Ambreen\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\a2903f460b2097befc069f818cc9d29a\\res\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
         "merged": "D:\\AndroidExternal\\BitBucket\\browserApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-hdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -404,16 +408,16 @@
         "source": "C:\\Users\\Engeneer Touseeq\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\b51fd7eb6f693c74780a1d31008b208f\\res\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
-        "merged": "D:\\AndroidExternal\\BitBucket\\browserApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\Engeneer Touseeq\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\b51fd7eb6f693c74780a1d31008b208f\\res\\drawable-xxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
+        "merged": "C:\\Users\\Ambreen\\Desktop\\BrowserApp\\BrowserApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_done_all.png.flat",
+        "source": "C:\\Users\\Ambreen\\Desktop\\BrowserApp\\BrowserApp\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_done_all.png"
     },
     {
         "merged": "D:\\AndroidExternal\\BitBucket\\browserApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_bar_up_container.xml.flat",
         "source": "C:\\Users\\Engeneer Touseeq\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\b51fd7eb6f693c74780a1d31008b208f\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
-        "merged": "C:\\Users\\Ambreen\\Desktop\\BrowserApp\\BrowserApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_done_all.png.flat",
-        "source": "C:\\Users\\Ambreen\\Desktop\\BrowserApp\\BrowserApp\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_done_all.png"
+        "merged": "D:\\AndroidExternal\\BitBucket\\browserApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Engeneer Touseeq\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\b51fd7eb6f693c74780a1d31008b208f\\res\\drawable-xxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
     },
     {
         "merged": "C:\\Users\\Ambreen\\Desktop\\BrowserApp\\BrowserApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
@@ -444,12 +448,12 @@
         "source": "C:\\Users\\Engeneer Touseeq\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\b51fd7eb6f693c74780a1d31008b208f\\res\\layout-v21\\notification_template_custom_big.xml"
     },
     {
-        "merged": "D:\\AndroidExternal\\BitBucket\\browserApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_up_default.png.flat",
-        "source": "D:\\AndroidExternal\\BitBucket\\browserApp\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_up_default.png"
-    },
-    {
         "merged": "D:\\AndroidExternal\\BitBucket\\browserApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
         "source": "C:\\Users\\Engeneer Touseeq\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\b51fd7eb6f693c74780a1d31008b208f\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
+    },
+    {
+        "merged": "D:\\AndroidExternal\\BitBucket\\browserApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_up_default.png.flat",
+        "source": "D:\\AndroidExternal\\BitBucket\\browserApp\\app\\src\\main\\res\\drawable-xxhdpi\\ic_action_up_default.png"
     },
     {
         "merged": "D:\\AndroidExternal\\BitBucket\\browserApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
@@ -460,12 +464,12 @@
         "source": "C:\\Users\\Ambreen\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\a2903f460b2097befc069f818cc9d29a\\res\\drawable-xxhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
     },
     {
-        "merged": "C:\\Users\\Ambreen\\Desktop\\BrowserApp\\BrowserApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_tooltip_bottom_frame.9.png.flat",
-        "source": "C:\\Users\\Ambreen\\.gradle\\caches\\transforms-1\\files-1.1\\super-tooltip-aar-4.0.2.aar\\ef3ff9dc6f618a829624ed86bae401f5\\res\\drawable-hdpi-v4\\tooltip_bottom_frame.9.png"
-    },
-    {
         "merged": "C:\\Users\\Ambreen\\Desktop\\BrowserApp\\BrowserApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Ambreen\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\a2903f460b2097befc069f818cc9d29a\\res\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Ambreen\\Desktop\\BrowserApp\\BrowserApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_tooltip_bottom_frame.9.png.flat",
+        "source": "C:\\Users\\Ambreen\\.gradle\\caches\\transforms-1\\files-1.1\\super-tooltip-aar-4.0.2.aar\\ef3ff9dc6f618a829624ed86bae401f5\\res\\drawable-hdpi-v4\\tooltip_bottom_frame.9.png"
     },
     {
         "merged": "D:\\AndroidExternal\\BitBucket\\browserApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
@@ -492,12 +496,12 @@
         "source": "D:\\AndroidExternal\\BitBucket\\browserApp\\app\\src\\main\\res\\layout\\album.xml"
     },
     {
-        "merged": "C:\\Users\\Ambreen\\Desktop\\BrowserApp\\BrowserApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
-        "source": "C:\\Users\\Ambreen\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\a2903f460b2097befc069f818cc9d29a\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
-    },
-    {
         "merged": "C:\\Users\\Ambreen\\Desktop\\BrowserApp\\BrowserApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_menu.png.flat",
         "source": "C:\\Users\\Ambreen\\Desktop\\BrowserApp\\BrowserApp\\app\\src\\main\\res\\drawable-mdpi\\ic_menu.png"
+    },
+    {
+        "merged": "C:\\Users\\Ambreen\\Desktop\\BrowserApp\\BrowserApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
+        "source": "C:\\Users\\Ambreen\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\a2903f460b2097befc069f818cc9d29a\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
     },
     {
         "merged": "C:\\Users\\Ambreen\\Desktop\\BrowserApp\\BrowserApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
@@ -600,12 +604,12 @@
         "source": "C:\\Users\\Ambreen\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\a2903f460b2097befc069f818cc9d29a\\res\\drawable-mdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Ambreen\\Desktop\\BrowserApp\\BrowserApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
-        "source": "C:\\Users\\Ambreen\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\a2903f460b2097befc069f818cc9d29a\\res\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
-    },
-    {
         "merged": "D:\\AndroidExternal\\BitBucket\\browserApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
         "source": "C:\\Users\\Engeneer Touseeq\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\b51fd7eb6f693c74780a1d31008b208f\\res\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "C:\\Users\\Ambreen\\Desktop\\BrowserApp\\BrowserApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_right_mtrl_light.png.flat",
+        "source": "C:\\Users\\Ambreen\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\a2903f460b2097befc069f818cc9d29a\\res\\drawable-hdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
     },
     {
         "merged": "C:\\Users\\Ambreen\\Desktop\\BrowserApp\\BrowserApp\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_search_view.xml.flat",
@@ -772,12 +776,12 @@
         "source": "C:\\Users\\Engeneer Touseeq\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\b51fd7eb6f693c74780a1d31008b208f\\res\\drawable-ldrtl-xhdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
-        "merged": "D:\\AndroidExternal\\BitBucket\\browserApp\\app\\build\\intermediates\\res\\merged\\debug\\color_switch_thumb_material_dark.xml.flat",
-        "source": "C:\\Users\\Engeneer Touseeq\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\b51fd7eb6f693c74780a1d31008b208f\\res\\color\\switch_thumb_material_dark.xml"
-    },
-    {
         "merged": "C:\\Users\\Ambreen\\Desktop\\BrowserApp\\BrowserApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Ambreen\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\a2903f460b2097befc069f818cc9d29a\\res\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\AndroidExternal\\BitBucket\\browserApp\\app\\build\\intermediates\\res\\merged\\debug\\color_switch_thumb_material_dark.xml.flat",
+        "source": "C:\\Users\\Engeneer Touseeq\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.4.0.aar\\b51fd7eb6f693c74780a1d31008b208f\\res\\color\\switch_thumb_material_dark.xml"
     },
     {
         "merged": "D:\\AndroidExternal\\BitBucket\\browserApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable_history_selector.xml.flat",

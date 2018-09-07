@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.andev.browser.View.NinjaRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    >
+    <org.askerov.dynamicgrid.DynamicGridView
+        android:id="@+id/home_grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/padding_16dp"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:columnWidth="@dimen/layout_width_156dp"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="@dimen/layout_height_12dp"
+        android:numColumns="auto_fit"
+        android:scrollbars="none">
+    </org.askerov.dynamicgrid.DynamicGridView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="100dp"
+            android:src="@drawable/logo"
+            android:layout_height="100dp" />
+
+        <TextView
+            android:id="@+id/home_about_blank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Some thing went wrong"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:visibility="visible"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Possible Errors"
+            android:textColor="@color/gray_700"
+            android:textSize="18sp"
+            android:visibility="visible"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/shape_circle"
+            android:text="Website Not found"
+            android:textColor="@color/gray_700"
+            android:textSize="14sp"
+            android:visibility="visible"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="5dp"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/shape_circle"
+            android:text="Wrong URL             "
+            android:textColor="@color/gray_700"
+            android:textSize="14sp"
+            android:visibility="visible"></TextView>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:id="@+id/btnSetings"
+        android:textAllCaps="false"
+        android:text="Try again"
+        android:background="@drawable/round_bg_gradient"
+        android:layout_height="wrap_content" />
+</com.andev.browser.View.NinjaRelativeLayout>

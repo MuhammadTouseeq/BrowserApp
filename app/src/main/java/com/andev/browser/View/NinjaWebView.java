@@ -17,6 +17,7 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
+import com.andev.browser.Activity.BrowserActivity;
 import com.andev.browser.Browser.AdBlock;
 import com.andev.browser.Browser.AlbumController;
 import com.andev.browser.Browser.BrowserController;
@@ -263,7 +264,7 @@ public class NinjaWebView extends WebView implements AlbumController {
             return;
         }
 
-        url = BrowserUnit.queryWrapper(context, url.trim());
+        url = BrowserUnit.queryWrapper(context, url.trim(), BrowserActivity.searchEngineType);
         if (url.startsWith(BrowserUnit.URL_SCHEME_MAIL_TO)) {
             Intent intent = IntentUnit.getEmailIntent(MailTo.parse(url));
             context.startActivity(intent);

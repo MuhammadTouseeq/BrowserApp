@@ -8,18 +8,28 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.andev.browser.Item;
 import com.andev.browser.R;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 
-public class MyAdapter extends ArrayAdapter<String> {
+public class MyAdapter extends ArrayAdapter<Item> {
 
-    ArrayList<String> animalList = new ArrayList<>();
+    ArrayList<Item> List = new ArrayList<>();
 
-    public MyAdapter(Context context, int textViewResourceId, ArrayList<String> objects) {
+    public MyAdapter(Context context, int textViewResourceId, ArrayList<Item> objects) {
         super(context, textViewResourceId, objects);
-        animalList = objects;
+        List = objects;
+    }
+
+    public boolean isBackStack;
+
+    public boolean isBackStack() {
+        return isBackStack;
+    }
+
+    public void setBackStack(boolean backStack) {
+        isBackStack = backStack;
     }
 
     @Override
@@ -35,9 +45,16 @@ public class MyAdapter extends ArrayAdapter<String> {
         v = inflater.inflate(R.layout.list_view_items, null);
         TextView textView = (TextView) v.findViewById(R.id.textView);
         ImageView imageView = (ImageView) v.findViewById(R.id.imageView);
-        textView.setText(animalList.get(position).toString());
 
-        return v;
+        textView.setText(List.get(position).getItemName());
+        if(isBackStack)
+        {
+            imageView.setImageBitmap(List.get(position).getBitmap());
+        }
+        else {
+            imageView.setImageResource(List.get(position).getItemImage());
+        }
+            return v;
 
     }
 
@@ -46,21 +63,4 @@ public class MyAdapter extends ArrayAdapter<String> {
 //package example.abhiandriod.customarrayadapterexample;
 //
 //
-//public class Item {
-//
-//    String animalName;
-//    int animalImage;
-//
-//    public Item(String animalName,int animalImage)
-//    {
-//        this.animalImage=animalImage;
-//        this.animalName=animalName;
-//    }
-//    public String getAnimalName()
-//    {
-//        return animalName;
-//    }
-//    public int getAnimalImage()
-//    {
-//        return animalImage;
-//    }
+

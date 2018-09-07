@@ -49,6 +49,8 @@ public class BrowserUnit {
     public static final String SEARCH_ENGINE_DUCKDUCKGO = "https://duckduckgo.com/?q=";
     public static final String SEARCH_ENGINE_STARTPAGE = "https://startpage.com/do/search?query=";
     public static final String SEARCH_ENGINE_BING = "http://www.bing.com/search?q=";
+    public static final String SEARCH_ENGINE_YAHOO = "http://search.yahoo.com/search?p=";
+    public static final String SEARCH_ENGINE_YOUTUBE = "http://www.youtube.com/results?search_query=";
     public static final String SEARCH_ENGINE_BAIDU = "http://www.baidu.com/s?wd=";
 
     public static final String UA_DESKTOP = "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36";
@@ -93,7 +95,7 @@ public class BrowserUnit {
         return pattern.matcher(url).matches();
     }
 
-    public static String queryWrapper(Context context, String query) {
+    public static String queryWrapper(Context context, String query,int searchEngine) {
         // Use prefix and suffix to process some special links
         String temp = query.toLowerCase(Locale.getDefault());
         if (temp.contains(URL_PREFIX_GOOGLE_PLAY) && temp.contains(URL_SUFFIX_GOOGLE_PLAY)) {
@@ -125,17 +127,18 @@ public class BrowserUnit {
         SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(context);
         String custom = sp.getString(context.getString(R.string.sp_search_engine_custom), SEARCH_ENGINE_GOOGLE);
         final int i = Integer.valueOf(sp.getString(context.getString(R.string.sp_search_engine), "0"));
-        switch (i) {
+        switch (searchEngine) {
             case 0:
                 return SEARCH_ENGINE_GOOGLE + query;
             case 1:
-                return SEARCH_ENGINE_DUCKDUCKGO + query;
+                return SEARCH_ENGINE_YAHOO + query;
             case 2:
-                return SEARCH_ENGINE_STARTPAGE + query;
-            case 3:
                 return SEARCH_ENGINE_BING + query;
+            case 3:
+                return SEARCH_ENGINE_DUCKDUCKGO + query;
             case 4:
-                return SEARCH_ENGINE_BAIDU + query;
+                return SEARCH_ENGINE_YOUTUBE + query;
+
             case 5:
                 return custom + query;
             default:
@@ -198,7 +201,7 @@ public class BrowserUnit {
         request.allowScanningByMediaScanner();
         request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
         request.setAllowedNetworkTypes(DownloadManager.Request.NETWORK_WIFI | DownloadManager.Request.NETWORK_MOBILE);
-           request.setAllowedOverRoaming(false);
+        request.setAllowedOverRoaming(false);
 //        request.setTitle(filename);
         request.setDescription(contentDisposition);
         request.setMimeType(mimeType);

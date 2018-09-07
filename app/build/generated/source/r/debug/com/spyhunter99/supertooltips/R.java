@@ -36,7 +36,7 @@ public final class R {
         public static final int tooltip_topframe = 0x7f0900df;
     }
     public static final class layout {
-        public static final int supertooltip = 0x7f0b004e;
-        public static final int supertooltip_textview = 0x7f0b004f;
+        public static final int supertooltip = 0x7f0b004f;
+        public static final int supertooltip_textview = 0x7f0b0050;
     }
 }
