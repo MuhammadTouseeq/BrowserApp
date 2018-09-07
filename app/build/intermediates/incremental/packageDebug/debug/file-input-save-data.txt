@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Fri Sep 07 21:30:56 PKT 2018
+#Fri Sep 07 23:19:35 PKT 2018
 2.base=D\:\\AndroidExternal\\BitBucket\\browserApp\\app\\build\\intermediates\\assets\\debug
 5.set=ASSET
 0.path=classes.dex

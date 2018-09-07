@@ -1439,8 +1439,9 @@ ArrayList<WebView> arrWebViews=new ArrayList<>();
         SearchBarAdapter adapter=new SearchBarAdapter(this,0,new Vector<String>());
         adapter.notifyDataSetChanged();
         inputBox.setAdapter(adapter);
+
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            inputBox.setDropDownVerticalOffset(getResources().getDimensionPixelOffset(R.dimen.layout_height_6dp));
+            inputBox.setDropDownVerticalOffset(getResources().getDimensionPixelOffset(R.dimen.divider_height_0dp));
         }
         inputBox.setDropDownWidth(ViewUnit.getWindowWidth(this));
         inputBox.setOnItemClickListener(new AdapterView.OnItemClickListener() {
