@@ -1,31 +1,31 @@
 #Internal package file, do not edit.
-#Thu Sep 06 23:59:53 PKT 2018
-2.base=C\:\\Users\\Ambreen\\Desktop\\BrowserApp\\BrowserApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+#Fri Sep 07 20:40:45 PKT 2018
+2.base=D\:\\AndroidExternal\\BitBucket\\browserApp\\app\\build\\intermediates\\assets\\debug
 5.set=ASSET
-0.path=ninja_introduction_en.md
+0.path=classes.dex
 2.baseType=DIRECTORY
-3.base=C\:\\Users\\Ambreen\\Desktop\\BrowserApp\\BrowserApp\\app\\build\\intermediates\\assets\\debug
-2.set=DEX
-1.path=typo.css
-4.base=C\:\\Users\\Ambreen\\Desktop\\BrowserApp\\BrowserApp\\app\\build\\intermediates\\assets\\debug
+3.base=D\:\\AndroidExternal\\BitBucket\\browserApp\\app\\build\\intermediates\\assets\\debug
+2.set=ASSET
+1.path=ninja_introduction_zh.html
+4.base=D\:\\AndroidExternal\\BitBucket\\browserApp\\app\\build\\intermediates\\assets\\debug
 count=7
 5.baseType=DIRECTORY
-2.path=classes.dex
-5.base=C\:\\Users\\Ambreen\\Desktop\\BrowserApp\\BrowserApp\\app\\build\\intermediates\\assets\\debug
+2.path=typo.css
+5.base=D\:\\AndroidExternal\\BitBucket\\browserApp\\app\\build\\intermediates\\assets\\debug
 4.set=ASSET
 3.path=hosts.txt
-6.base=C\:\\Users\\Ambreen\\Desktop\\BrowserApp\\BrowserApp\\app\\build\\intermediates\\assets\\debug
+6.base=D\:\\AndroidExternal\\BitBucket\\browserApp\\app\\build\\intermediates\\assets\\debug
 3.baseType=DIRECTORY
 1.set=ASSET
-4.path=ninja_introduction_zh.md
+4.path=ninja_introduction_en.md
 6.set=ASSET
 1.baseType=DIRECTORY
 6.baseType=DIRECTORY
-5.path=ninja_introduction_en.html
-0.base=C\:\\Users\\Ambreen\\Desktop\\BrowserApp\\BrowserApp\\app\\build\\intermediates\\assets\\debug
+5.path=ninja_introduction_zh.md
+0.base=D\:\\AndroidExternal\\BitBucket\\browserApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 0.baseType=DIRECTORY
 3.set=ASSET
-6.path=ninja_introduction_zh.html
-1.base=C\:\\Users\\Ambreen\\Desktop\\BrowserApp\\BrowserApp\\app\\build\\intermediates\\assets\\debug
+6.path=ninja_introduction_en.html
+1.base=D\:\\AndroidExternal\\BitBucket\\browserApp\\app\\build\\intermediates\\assets\\debug
 4.baseType=DIRECTORY
-0.set=ASSET
+0.set=DEX

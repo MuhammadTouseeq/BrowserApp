@@ -49,6 +49,8 @@ import com.andev.browser.Browser.AlbumController;
 import com.andev.browser.Browser.BrowserContainer;
 import com.andev.browser.Browser.BrowserController;
 import com.andev.browser.InternetConnection;
+import com.andev.browser.Page;
+import com.andev.browser.PageHolder;
 import com.andev.browser.Service.ClearService;
 import com.andev.browser.Task.ScreenshotTask;
 import com.andev.browser.Database.Record;
@@ -60,6 +62,7 @@ import com.andev.browser.Unit.IntentUnit;
 import com.andev.browser.Unit.ViewUnit;
 import com.andev.browser.View.*;
 import com.andev.browser.adapter.MyAdapter;
+import com.andev.browser.adapter.PageLoadedAdapter;
 import com.andev.browser.adapter.SearchBarAdapter;
 import com.spyhunter99.supertooltips.ToolTip;
 import com.spyhunter99.supertooltips.ToolTipManager;
@@ -514,6 +517,7 @@ else
                 if(tooltips!=null)
                 {
                     tooltips.closeTooltipImmediately();
+                    tooltips.closeActiveTooltip();
                 }
                 if (currentAlbumController == null) { // || !(actionId == EditorInfo.IME_ACTION_DONE)
                     return false;
@@ -546,6 +550,46 @@ else
         updateBookmarks();
         updateAutoComplete();
 
+
+        omniboxBookmark.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View view) {
+
+                final ToolTip toolTip;
+
+                if(PageHolder.getInstance().getArrLoadedURL().size()>5)
+                {
+                    return false;
+                }
+                final PageLoadedAdapter adapter = new PageLoadedAdapter(BrowserActivity.this,R.layout.list_view_items, PageHolder.getInstance().getArrLoadedURL());
+                adapter.setBackStack(true);
+                LayoutInflater inflater = (LayoutInflater) getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+                View view1 = inflater.inflate(R.layout.tooltip_list, null);
+                ListView  listView=(ListView)view1.findViewById(R.id.simpleListView1);
+                listView.setVisibility(View.VISIBLE);
+                listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    @Override
+                    public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
+                        Page item = adapter.getItem(position);
+                        inputBox.setText(item.getUrl());
+                        PageHolder.getInstance().clearCache();
+                        updateAlbum(item.getUrl());
+                        tooltips.closeActiveTooltip();
+
+                    }
+                });
+                listView.setAdapter(adapter);
+
+                toolTip = new ToolTip()
+                        .withContentView(view1)
+                        .withAnimationType(ToolTip.AnimationType.FROM_MASTER_VIEW)
+                        .withShadow();
+
+                tooltips.showToolTip(toolTip, view);
+
+                return true;
+            }
+        });
         omniboxBookmark.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -560,6 +604,7 @@ else
                 LayoutInflater inflater = (LayoutInflater) getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
                View view = inflater.inflate(R.layout.tooltip_list, null);
                 ListView  listView=(ListView)view.findViewById(R.id.simpleListView);
+                listView.setVisibility(View.VISIBLE);
                 listView.setAdapter(adapter);
 
                 ToolTip toolTip = new ToolTip()

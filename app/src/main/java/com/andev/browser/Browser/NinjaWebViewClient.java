@@ -17,6 +17,9 @@ import android.view.LayoutInflater;
 import android.webkit.*;
 import android.widget.EditText;
 import android.widget.LinearLayout;
+
+import com.andev.browser.Page;
+import com.andev.browser.PageHolder;
 import com.andev.browser.R;
 import com.andev.browser.Unit.BrowserUnit;
 import com.andev.browser.Unit.IntentUnit;
@@ -60,10 +63,12 @@ public class NinjaWebViewClient extends WebViewClient {
         }
     }
 
+
+
     @Override
     public void onPageFinished(WebView view, String url) {
         super.onPageFinished(view, url);
-
+        PageHolder.getInstance().addPage(new Page(view.getUrl(),view.getTitle(),view.getFavicon()));
         if (!ninjaWebView.getSettings().getLoadsImagesAutomatically()) {
             ninjaWebView.getSettings().setLoadsImagesAutomatically(true);
         }

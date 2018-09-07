@@ -27,13 +27,13 @@ public final class R {
         public static final int tooltip_top_frame = 0x7f0800ba;
     }
     public static final class id {
-        public static final int tooltip_bottomframe = 0x7f0900d8;
-        public static final int tooltip_contentholder = 0x7f0900d9;
-        public static final int tooltip_contenttv = 0x7f0900da;
-        public static final int tooltip_pointer_down = 0x7f0900db;
-        public static final int tooltip_pointer_up = 0x7f0900dc;
-        public static final int tooltip_shadow = 0x7f0900dd;
-        public static final int tooltip_topframe = 0x7f0900de;
+        public static final int tooltip_bottomframe = 0x7f0900d9;
+        public static final int tooltip_contentholder = 0x7f0900da;
+        public static final int tooltip_contenttv = 0x7f0900db;
+        public static final int tooltip_pointer_down = 0x7f0900dc;
+        public static final int tooltip_pointer_up = 0x7f0900dd;
+        public static final int tooltip_shadow = 0x7f0900de;
+        public static final int tooltip_topframe = 0x7f0900df;
     }
     public static final class layout {
         public static final int supertooltip = 0x7f0b004e;

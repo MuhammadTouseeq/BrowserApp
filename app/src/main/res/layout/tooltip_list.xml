@@ -10,6 +10,15 @@
         android:layout_width="140dp"
         android:layout_height="wrap_content"
         android:divider="@color/white"
+        android:visibility="gone"
+        android:dividerHeight="2dp"/>
+
+    <ListView
+        android:id="@+id/simpleListView1"
+        android:layout_width="300dp"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:divider="@color/white"
         android:dividerHeight="2dp"/>
 
 </LinearLayout>
