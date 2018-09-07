@@ -516,7 +516,7 @@ else
             public boolean onEditorAction(TextView v, int actionId, KeyEvent event) {
                 if(tooltips!=null)
                 {
-                    tooltips.closeTooltipImmediately();
+
                     tooltips.closeActiveTooltip();
                 }
                 if (currentAlbumController == null) { // || !(actionId == EditorInfo.IME_ACTION_DONE)
